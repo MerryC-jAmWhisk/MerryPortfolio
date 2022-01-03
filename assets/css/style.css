@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+} 
+
+body {
+    background-color: bisque;
+}
+
+/*header and navigation bar*/
+header {
+    padding: 20px;
+    background-color: lightgoldenrodyellow;
+    color: goldenrod;
+}
+
+header h1 {
+    font-size: 48px;
+    display: inline-block;
+}
+
+header div {
+    padding-top: 15px;
+    margin-right:20px;
+    float: right;
+    font-size: 28px;
+}
+
+header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+header a {
+    text-decoration: none;
+    color: goldenrod;
+}
+
+/*hero section*/
+.hero {
+    height: 400px;
+    margin-bottom: 25px;
+    background-image: url("../images/hero.jpg");
+    background-position: center;
+    background-size: cover;
+    background-position: relative;
+}
