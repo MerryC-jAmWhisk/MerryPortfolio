@@ -2,6 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 } 
 
 body {
@@ -11,12 +12,12 @@ body {
 /*header and navigation bar*/
 header {
     padding: 20px;
-    background-color: lightgoldenrodyellow;
-    color: goldenrod;
+    background-color: rgb(22, 100, 94);
+    color: lightgoldenrodyellow;
 }
 
 header h1 {
-    font-size: 48px;
+    font-size: 42px;
     display: inline-block;
 }
 
@@ -34,7 +35,7 @@ header div ul li {
 
 header a {
     text-decoration: none;
-    color: goldenrod;
+    color: lightgoldenrodyellow;
 }
 
 /*hero section*/
@@ -48,8 +49,8 @@ header a {
 }
 
 .hero h2 {
-    color: goldenrod;
-    background-color: rgb(6, 67, 102, 0.7);
+    color: lightgoldenrodyellow;
+    background-color: rgb(6, 67, 102, 0.8);
     font-size: 36px;
     float: right;
     padding: 20px;
@@ -57,4 +58,29 @@ header a {
     margin-right: 20px;
 }
 
+.section-title {
+    color: rgb(35, 83, 105);
+    font-size: 46px;
+    display: inline-block;
+    width: 300px;
+    margin: 0 0 30px 100px;
+    padding-right: 20px;
+    text-align: right;
+    border-right-style: solid;
+    border-right-width: 7px;
+    border-right-color: rgb(29, 40, 71);
+}
+
+
 /*About Me section*/
+.about .section-title {
+    padding-bottom: 50px;
+}
+
+.paragraph {
+    color: rgb(22, 100, 94);
+    font-size: 14px;
+    display: inline-block;
+    width: 60%;
+    padding: 20px 0 0 35px;
+}
