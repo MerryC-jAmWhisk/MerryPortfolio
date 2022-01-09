@@ -46,3 +46,15 @@ header a {
     background-size: cover;
     background-position: relative;
 }
+
+.hero h2 {
+    color: goldenrod;
+    background-color: rgb(6, 67, 102, 0.7);
+    font-size: 36px;
+    float: right;
+    padding: 20px;
+    margin-top: 300px;
+    margin-right: 20px;
+}
+
+/*About Me section*/
