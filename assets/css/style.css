@@ -116,6 +116,11 @@ header a {
     background-color: rgb(63, 129, 155);
 }
 
+.img {
+    display: flex;
+    width: 100%;
+}
+
 .work img {
     float: right;
     width: 100%;
