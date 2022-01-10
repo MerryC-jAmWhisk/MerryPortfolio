@@ -63,7 +63,7 @@ header a {
 /*sections*/
 .content {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     margin-bottom: 50px;
 }
 
@@ -85,6 +85,8 @@ header a {
 }
 
 .paragraph {
+    display: flex;
+    flex-wrap: wrap;
     color: rgb(22, 100, 94);
     font-size: 16px;
     margin: 0 160px 0 30px;
@@ -94,11 +96,13 @@ header a {
 /*My Works section*/
 .works {
     display:flex;
-    justify-content: flex-start;
+    flex-wrap: wrap;
     margin-bottom: 30px;
 }
 
 .work img {
+    display: flex;
+    flex-wrap: wrap;
     float: right;
     width: 490px;
     height: 240px;
@@ -154,14 +158,17 @@ header a {
 /*Contact Me section*/
 .mycontacts {
     display: flex;
-    justify-content: flex-start;
+    flex-wrap: wrap;
 }
 
 .contacts {
     display: flex;
+    flex-wrap: wrap;
 }
 
-.contact {
+.contact { 
+    display: flex;
+    flex-wrap: wrap;
     font-size: 26px;
     border-bottom: solid 6px rgb(63, 129, 155);
     margin: auto 50px;
