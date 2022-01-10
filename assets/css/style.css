@@ -9,6 +9,7 @@ body {
     background-color: bisque;
 }
 
+
 /*header and navigation bar*/
 header {
     padding: 20px;
@@ -196,4 +197,13 @@ article {
     font-size: 26px;
     border-bottom: solid 6px rgb(63, 129, 155);
     margin-left: 40px;
+}
+
+
+/*linked images page*/
+.center {
+    display: block;
+    margin: 100px auto;
+    width: 50%;
+    height: auto;
 }
