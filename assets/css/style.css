@@ -38,6 +38,7 @@ header a {
     color: lightgoldenrodyellow;
 }
 
+
 /*hero section*/
 .hero {
     height: 400px;
@@ -58,6 +59,8 @@ header a {
     margin-right: 20px;
 }
 
+
+/*sections*/
 .section-title {
     color: rgb(35, 83, 105);
     font-size: 46px;
@@ -79,8 +82,41 @@ header a {
 
 .paragraph {
     color: rgb(22, 100, 94);
-    font-size: 14px;
+    font-size: 16px;
     display: inline-block;
     width: 60%;
-    padding: 20px 0 0 35px;
+    padding-left: 35px; 
+    position: absolute;
+}
+
+
+/*My Works section*/
+.works .section-title {
+    padding-bottom: 820px;
+
+}
+
+.work img {
+    
+    width: 550px;
+    height: 200px;
+    border: solid 6px rgb(63, 129, 155);
+}
+
+#primary img {
+    width: 1100px;
+    height: 600px;
+}
+
+.work h3 {
+
+}
+
+
+/*Contact Me section*/
+.contact div {
+    margin: 0 100px 60px 25px;
+    font-size: 32px;
+    float: right;
+    border-bottom: solid 6px rgb(63, 129, 155);
 }
