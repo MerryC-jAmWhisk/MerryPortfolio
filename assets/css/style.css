@@ -97,8 +97,18 @@ header a {
 /*My Works section*/
 .works {
     display:flex;
-    flex-wrap: wrap;
     margin-bottom: 30px;
+}
+
+.works .section-title{
+    width: 18%;
+    display: flex;
+}
+
+.work {
+    display: flex;
+    flex-wrap: wrap;
+    width: 68%;
 }
 
 .work h3 {
@@ -113,50 +123,51 @@ header a {
     flex-wrap: wrap;
     float: right;
     width: 100%;
-    max-width: 400px;
-    height: 100%;
-    max-height: 195px;
+    height: auto;
     margin: 0 0 10px 20px;
-    border: solid 10px rgb(63, 129, 155);
+    border: solid 12px rgb(63, 129, 155);
+}
+
+.other-works {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.other-works article{
+    width: 50%;
+}
+
+.primary {
+    width: 100%;
+    display: flex;
+}
+
+.primary .caption {
+    top: 80%;
+    left: 3%;
 }
 
 .primary img {
     width: 100%;
-    max-width: 1800px;
-    height: 100%;
-    max-height: 700px;
-    margin-left: 20px;
+    height: auto;
 }
 
-.primary h3 {
+/*.primary h3 {
     font-size: 28px;
-    position: absolute;
-    margin-top: 28%;
-    margin-left: 0%;
+    top: 80%;
+    left:
+}*/
+
+article {
+    position: relative;
+    display: flex;
 }
 
-#second h3 {
-    position: absolute;
-    margin-top: 45%;
-    margin-left: 1.5%;
-}
 
-#third h3 {
+.caption {
     position: absolute;
-    margin-top: 45%;
-    margin-left: 29%;
-}
-
-#fourth h3 {
-    position: absolute;
-    margin-top: 58.5%;
-    margin-left: 1.5%;
-}
-
-#fifth h3 {
-    position: absolute;
-    margin-top: 58.5%;
-    margin-left: 29%;
+    top: 60%;
+    left: 5%;
 }
 
 
