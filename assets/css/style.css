@@ -61,51 +61,54 @@ header a {
 
 
 /*sections*/
+.content {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
 .section-title {
     color: rgb(35, 83, 105);
     font-size: 46px;
-    display: inline-block;
-    width: 300px;
-    margin: 0 0 30px 100px;
-    padding-right: 20px;
     text-align: right;
-    border-right-style: solid;
-    border-right-width: 7px;
-    border-right-color: rgb(29, 40, 71);
+    margin-left: 150px;
+    border-right: solid 7px rgb(29, 40, 71);
+
 }
 
 
 /*About Me section*/
-.about .section-title {
-    padding-bottom: 50px;
+.about {
+    display: flex;
+    justify-content: flex-start;
+
 }
 
 .paragraph {
     color: rgb(22, 100, 94);
     font-size: 16px;
-    display: inline-block;
-    width: 60%;
-    padding-left: 35px; 
-    position: absolute;
+    padding: 0 0 20px 30px;
 }
 
 
 /*My Works section*/
-.works .section-title {
-    padding-bottom: 820px;
+.works {
+    display:flex;
+    justify-content: flex-start;
+
 
 }
 
 .work img {
-    
-    width: 550px;
+    float: right;
+    width: 400px;
     height: 200px;
     border: solid 6px rgb(63, 129, 155);
 }
 
 #primary img {
-    width: 1100px;
-    height: 600px;
+    width: 800px;
+    height: 400px;
 }
 
 .work h3 {
@@ -114,9 +117,20 @@ header a {
 
 
 /*Contact Me section*/
-.contact div {
-    margin: 0 100px 60px 25px;
+.mycontacts {
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.contacts {
+    display: flex;
+}
+
+.contact {
+    display: flex;
+    align-items: flex-end;
     font-size: 32px;
-    float: right;
     border-bottom: solid 6px rgb(63, 129, 155);
+    margin: auto 50px;
 }
