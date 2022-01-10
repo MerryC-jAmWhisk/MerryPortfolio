@@ -69,7 +69,7 @@ header a {
 
 .section-title {
     color: rgb(35, 83, 105);
-    font-size: 46px;
+    font-size: 40px;
     text-align: right;
     margin-left: 150px;
     border-right: solid 7px rgb(29, 40, 71);
@@ -81,13 +81,13 @@ header a {
 .about {
     display: flex;
     justify-content: flex-start;
-
+    margin-bottom: 30px;
 }
 
 .paragraph {
     color: rgb(22, 100, 94);
     font-size: 16px;
-    padding: 0 0 20px 30px;
+    margin: 0 160px 0 30px;
 }
 
 
@@ -95,32 +95,66 @@ header a {
 .works {
     display:flex;
     justify-content: flex-start;
-
-
+    margin-bottom: 30px;
 }
 
 .work img {
     float: right;
-    width: 400px;
-    height: 200px;
+    width: 490px;
+    height: 240px;
+    margin: 0 0 10px 20px;
     border: solid 6px rgb(63, 129, 155);
 }
 
-#primary img {
-    width: 800px;
-    height: 400px;
-}
-
 .work h3 {
-
+    color: lightgoldenrodyellow;
+    font-size: 22px;
+    padding: 15px;
+    background-color: rgb(63, 129, 155);
 }
+
+#primary img {
+    width: 1000px;
+    height: 500px;
+}
+
+#primary h3 {
+    font-size: 28px;
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 20px;
+}
+
+#second h3 {
+    position: absolute;
+    margin-top: 650px;
+    margin-left: 20px;
+}
+
+#third h3 {
+    position: absolute;
+    margin-top: 650px;
+    margin-left: 530px;
+}
+
+#fourth h3 {
+    position: absolute;
+    margin-top: 900px;
+    margin-left: 20px;
+}
+
+#fifth h3 {
+    position: absolute;
+    margin-top: 900px;
+    margin-left: 530px;
+}
+
 
 
 /*Contact Me section*/
 .mycontacts {
     display: flex;
     justify-content: flex-start;
-
 }
 
 .contacts {
@@ -128,9 +162,7 @@ header a {
 }
 
 .contact {
-    display: flex;
-    align-items: flex-end;
-    font-size: 32px;
+    font-size: 26px;
     border-bottom: solid 6px rgb(63, 129, 155);
     margin: auto 50px;
 }
